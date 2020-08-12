@@ -1,0 +1,198 @@
+{
+  "Collection": {
+    "Name": "MapPanel",
+    "ViewPort": {
+      "xorigin": 1900,
+      "yorigin": 2170,
+      "width": 1940,
+      "height": 465,
+      "alignment": "BottomRight"
+    },
+    "Widgets": [
+      {
+        "Widget": {
+          "Type": "Base",
+          "Name": "Background",
+          "ViewPort": {
+            "xorigin": 1080,
+            "yorigin": 0,
+            "width": 860,
+            "height": 464,
+            "alignment": "TopLeft"
+          },
+          "ZPlane": 1,
+          "StateMaterials": {
+            "UserStates": 9,
+            "UserState0": {
+              "Material": "CivAfriMapPanel"
+            },
+            "UserState1": {
+              "Material": "CivAsiaMapPanel"
+            },
+            "UserState2": {
+              "Material": "CivMediMapPanel"
+            },
+            "UserState3": {
+              "Material": "CivMesoMapPanel"
+            },
+            "UserState4": {
+              "Material": "CivOrieMapPanel"
+            },
+            "UserState5": {
+              "Material": "CivSlavMapPanel"
+            },
+            "UserState6": {
+              "Material": "CivWestMapPanel"
+            },
+            "UserState7": {
+              "Material": "CivNomadMapPanel"
+            },
+            "UserState8": {
+              "Material": "CivSeasMapPanel"
+            }
+          },
+          "ChildWidgets": [
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonFlare",
+                "ClickSound": "Play_Button_UI",
+                "ViewPort": {
+                  "xorigin": 46,
+                  "yorigin": 150,
+                  "width": 69,
+                  "height": 69,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 4140,
+                "Radius": 30,
+                "StateMaterials": {
+                  "StateDisabled": {
+                    "Material": "MinimapFlareDisabled"
+                  },
+                  "StateNormal": {
+                    "Material": "MinimapFlareNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MinimapFlareHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MinimapFlareActive"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonPlayer",
+                "ClickSound": "Play_Button_UI",
+                "ViewPort": {
+                  "xorigin": 154,
+                  "yorigin": 362,
+                  "width": 70,
+                  "height": 70,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 9271,
+                "Radius": 30,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MinimapPlayerStatsNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MinimapPlayerStatsHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MinimapPlayerStatsActive"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonFilter",
+                "ClickSound": "Play_Button_UI",
+                "ViewPort": {
+                  "xorigin": 262,
+                  "yorigin": 418,
+                  "width": 70,
+                  "height": 70,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 40049,
+                "Radius": 30,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MinimapFilterEconomyNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MinimapFilterEconomyHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MinimapFilterEconomyActive"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "Button",
+                "Name": "ButtonColor",
+                "ClickSound": "Play_Button_UI",
+                "ViewPort": {
+                  "xorigin": 46,
+                  "yorigin": 306,
+                  "width": 70,
+                  "height": 70,
+                  "alignment": "CentreCentre"
+                },
+                "ZPlaneLocalOffset": 1,
+                "Help": 40048,
+                "Radius": 30,
+                "StateMaterials": {
+                  "StateNormal": {
+                    "Material": "MinimapFilterEconomyNormal"
+                  },
+                  "StateHover": {
+                    "Material": "MinimapFilterEconomyHover"
+                  },
+                  "StatePressed": {
+                    "Material": "MinimapFilterEconomyActive"
+                  }
+                }
+              }
+            },
+            {
+              "Widget": {
+                "Type": "MapView",
+                "Name": "MapView",
+                "show": true,
+                "ViewPort": {
+                  "xorigin": 420,
+                  "yorigin": 236,
+                  "width": 868,
+                  "height": 505,
+                  "alignment": "CentreCentre"
+                },
+                "Help": 300184,
+                "Image": {
+                  "xorigin": 446,
+                  "yorigin": 247,
+                  "width": 854,
+                  "height": 458,
+                  "alignment": "CentreCentre"
+                },
+                "ChildWidgets": []
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
