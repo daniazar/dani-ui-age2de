@@ -1,3 +1,5 @@
+![UI Image Demo](https://github.com/daniazar/dani-ui-age2de/blob/master/thumbnail.jpg)
+
 ## A UI Mod for Age of Empires Definitive Edition
 An UI for 4k UltraWide monitor based on Redi UI 3.. The UI focus all the elements on the bottom left, center to have a simple view at everything.
 It uses transparent backgrounds for the panels.
@@ -13,5 +15,3 @@ Enjoy! Best Regards, Daniel Azar
 Just launch the game and enter the Mod menu. Find new mods online and search for Daniel Azar.
 
 https://www.ageofempires.com/mods/details/16939
-
-![UI Image Demo](https://github.com/daniazar/dani-ui-age2de/blob/master/thumbnail.jpg)
